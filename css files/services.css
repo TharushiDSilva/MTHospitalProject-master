@@ -31,6 +31,8 @@
 .left-side p,.right-side p{
     text-align:justify !important;
     padding:50px;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .left-side h1, .right-side h1{
     font-weight: 900;
@@ -43,13 +45,16 @@
     width:600px;
     height:40vh;
     margin: 10px auto;
-    background-color: rgba(180, 222, 242, 0.539);
-    font-family: 'Poppins';
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;font-family: 'Poppins';
     transition:.2s ;
 }
 .left-side:hover,.right-side:hover{
     border-top: 5px solid blue;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 .left-side p b{
     font-weight: 900;
